@@ -37,7 +37,7 @@ export default function PantallaPosiciones() {
       {/* Portada: foto del grupo + título */}
       <div className="relative">
       <img
-          src="/bannerAyon.png"
+          src="/banner_posiciones.png"
           alt="Nuestro grupo"
           className="w-full h-44 object-contain"
           onError={(e) => { e.currentTarget.style.display = "none"; }}
