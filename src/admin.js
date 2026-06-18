@@ -6,7 +6,7 @@
 import { supabase } from "./supabaseClient";
 
 // Contraseña de admin. Protección sencilla para uso entre amigos.
-export const CLAVE_ADMIN = "poponcia";
+export const CLAVE_ADMIN = "ArgentinaCampeon2026";
 
 // Trae todos los participantes con su token (para construir sus links).
 export async function listarParticipantes() {
