@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prode Mundial 2026</title>
+    <!-- Tailwind por CDN: estilos sin configurar nada (en la Etapa 8 lo dejamos "pro") -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes pantalla {
+        from { opacity: 0; transform: translateY(8px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      .animate-pantalla { animation: pantalla 0.28s ease-out; }
+
+      @keyframes pop {
+        0%   { opacity: 0; transform: scale(0.8); }
+        60%  { transform: scale(1.08); }
+        100% { opacity: 1; transform: scale(1); }
+      }
+      .animate-pop { animation: pop 0.32s ease-out; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
